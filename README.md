@@ -8,3 +8,12 @@
 ```
 	sudo docker-compose up -d
 ```
+
+3. React app url
+```
+	http://localhost:3002
+```
+4. Django url
+```
+	http://localhost:8000
+```
