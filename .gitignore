@@ -1,3 +1,7 @@
-world/*
-!world/Dockerfile
-!world/.dockerignore
+*
+
+!Dockerfile
+!.dockerignore
+!docker-compose.yml
+
+!*/
