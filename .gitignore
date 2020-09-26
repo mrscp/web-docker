@@ -1,8 +1,0 @@
-*
-
-!Dockerfile
-!.dockerignore
-!docker-compose.yml
-
-!*/world/Dockerfile
-!*/world/.dockerignore
