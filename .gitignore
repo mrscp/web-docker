@@ -21,3 +21,9 @@
 /world/npm-debug.log*
 /world/yarn-debug.log*
 /world/yarn-error.log*
+
+/djangoProject/venv/
+*/__pycache__/*
+djangoProject/db.sqlite3
+djangoProject/.idea/
+*.py[cod]
