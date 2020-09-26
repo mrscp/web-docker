@@ -2,10 +2,10 @@
 FROM node:13.12.0-alpine
 
 # set working directory
-WORKDIR /world
+WORKDIR /reactApp
 
-# add `/app/node_modules/.bin` to $PATH
-ENV PATH /world/node_modules/.bin:$PATH
+# add `/reactApp/node_modules/.bin` to $PATH
+ENV PATH /reactApp/node_modules/.bin:$PATH
 
 # install app dependencies
 COPY package.json ./

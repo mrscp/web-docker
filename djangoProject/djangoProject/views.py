@@ -5,7 +5,7 @@ from django.http import JsonResponse
 
 def current_datetime(request):
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    html = "<html><body>Time: %s.</body></html>" % now
+    html = "<html><body>Time: %s</body></html>" % now
     return HttpResponse(html)
 
 

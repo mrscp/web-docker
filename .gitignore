@@ -1,27 +1,27 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/world/node_modules
-/world/.pnp
-/world/.pnp.js
+/reactApp/node_modules
+/reactApp/.pnp
+/reactApp/.pnp.js
 
 # testing
-/world/coverage
+/reactApp/coverage
 
 # production
-/world/build
+/reactApp/build
 
 # misc
-/world/.DS_Store
-/world/.env.local
-/world/.env.development.local
-/world/.env.test.local
-/world/.env.production.local
-world/.vscode/
+/reactApp/.DS_Store
+/reactApp/.env.local
+/reactApp/.env.development.local
+/reactApp/.env.test.local
+/reactApp/.env.production.local
+/reactApp/.vscode/
 
-/world/npm-debug.log*
-/world/yarn-debug.log*
-/world/yarn-error.log*
+/reactApp/npm-debug.log*
+/reactApp/yarn-debug.log*
+/reactApp/yarn-error.log*
 
 /djangoProject/venv/
 */__pycache__/*
