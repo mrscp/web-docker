@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  world:
+    container_name: world
+    tty: true
+    restart: always
+    build:
+      context: ./world
+      dockerfile: Dockerfile
+    volumes:
+      - './world:/world'
+      - '/world/node_modules'
+    ports:
+      - '3002:3000'
+    environment:
+      - CHOKIDAR_USEPOLLING=true
