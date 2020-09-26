@@ -17,6 +17,7 @@
 /world/.env.development.local
 /world/.env.test.local
 /world/.env.production.local
+world/.vscode/
 
 /world/npm-debug.log*
 /world/yarn-debug.log*

@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Time from './components/Time';
+
 
 function App() {
   return (
     <div className="App">
-      World Test
+      Live datetime from django: <Time />
     </div>
   );
 }
