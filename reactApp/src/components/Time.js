@@ -20,7 +20,7 @@ export default class Time extends React.Component {
 
     updateTime = () => {
         if (this.state.mounted === true){
-            fetch("http://127.0.0.1:8000/get-datetime").then(res => res.json()).then(
+            fetch("http://localhost:8111/get-datetime").then(res => res.json()).then(
                 json => {
                     this.setState({
                         time: json["datetime"]

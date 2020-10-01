@@ -12,7 +12,7 @@ services:
       - './reactApp:/reactApp'
       - '/reactApp/node_modules'
     ports:
-      - '3002:3000'
+      - '3111:3000'
     environment:
       - CHOKIDAR_USEPOLLING=true
 
@@ -27,4 +27,4 @@ services:
     volumes:
       - './djangoProject:/djangoProject'
     ports:
-      - "8000:8000"
+      - "8111:8000"
